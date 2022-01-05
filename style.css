@@ -1,1 +1,75 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: green;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.photo img{
+    width: 250px;
+}
+.button-link{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient( 45deg, green, red, green);
+}
+.button-link:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.section-2{
+    text-align: center;
+    margin-top: 50px;
+}
+.dhaka{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+.div-img img{
+    width: 100%;
+}
+.rajshahi{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+.khulna{
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+    border-radius: 5px;
+}
+.all-divisions{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.button-section{
+    padding: 15px;
+}
+p{
+    text-align: justify;
+}
+.button-tip:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.good{
+    padding-top: 25px;
+}
+.bad{
+    padding-top: 30px;
+}
